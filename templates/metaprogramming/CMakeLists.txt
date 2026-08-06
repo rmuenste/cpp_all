@@ -1,0 +1,6 @@
+add_cpp_example(templates_recursive_vs_fold 17 recursive_vs_fold.cpp)
+add_cpp_example(templates_type_list 17 type_list.cpp)
+add_cpp_example(templates_tuple_iteration 17 tuple_iteration.cpp)
+add_cpp_example(templates_compile_time_lookup 20 compile_time_lookup.cpp)
+add_cpp_example(templates_state_machine 17 state_machine.cpp)
+add_cpp_example(templates_dependent_names 11 dependent_names.cpp)

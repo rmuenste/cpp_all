@@ -1,0 +1,8 @@
+add_cpp_example(templates_crtp 11 crtp.cpp)
+add_cpp_example(templates_policy_design 11 policy_design.cpp)
+add_cpp_example(templates_mixins 17 mixins.cpp)
+add_cpp_example(templates_type_erasure 11 type_erasure.cpp)
+add_cpp_example(templates_expression_templates 11 expression_templates.cpp)
+add_cpp_example(templates_customization_point 20 customization_point.cpp)
+add_cpp_example(templates_strong_types 11 strong_types.cpp)
+add_cpp_example(templates_overload_set 17 overload_set.cpp)

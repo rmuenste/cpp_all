@@ -1,0 +1,8 @@
+add_cpp_example(templates_argument_deduction 11 argument_deduction.cpp)
+add_cpp_example(templates_reference_collapsing 11 reference_collapsing.cpp)
+add_cpp_example(templates_specialization 11 specialization.cpp)
+add_cpp_example(templates_template_template 11 template_template.cpp)
+add_cpp_example(templates_enable_if 11 enable_if.cpp)
+add_cpp_example(templates_detection_idiom 17 detection_idiom.cpp)
+add_cpp_example(templates_constraints_comparison 20 constraints_comparison.cpp)
+add_cpp_example(templates_tag_dispatch 11 tag_dispatch.cpp)
