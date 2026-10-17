@@ -5,7 +5,21 @@ the task and provides a usage example or checks, leaving the implementation to y
 
 ## C++11
 
-- [Move semantics: transfer ownership of a large buffer](cpp11/move_semantics.md)
+| Topic | Exercise |
+| --- | --- |
+| `type_deduction` | [Look up and edit service settings](cpp11/type_deduction.md) |
+| `strong_types` | [Format request log entries](cpp11/strong_types.md) |
+| `initialization` | [Configure a retry schedule](cpp11/initialization.md) |
+| `move_semantics` | [Transfer ownership of a large buffer](cpp11/move_semantics.md) |
+| `smart_pointers` | [Own jobs and share queue configuration](cpp11/smart_pointers.md) |
+| `lambdas` | [Summarize unpaid invoices](cpp11/lambdas.md) |
+| `range_algorithms` | [Prepare a sale catalog](cpp11/range_algorithms.md) |
+| `variadic_templates` | [Write a structured log line](cpp11/variadic_templates.md) |
+| `perfect_forwarding` | [Construct owned objects through a factory](cpp11/perfect_forwarding.md) |
+| `constexpr_traits` | [Encode unsigned packet fields](cpp11/constexpr_traits.md) |
+| `class_controls` | [Define a noncopyable output sink](cpp11/class_controls.md) |
+| `concurrency` | [Process a batch with two workers](cpp11/concurrency.md) |
+| `chrono_random` | [Generate reproducible retry delays](cpp11/chrono_random.md) |
 
 Each exercise includes a Markdown task, an unfinished `.cpp` file alongside it,
 and instructions to enable, build, and test its CMake target. Unfinished starters
