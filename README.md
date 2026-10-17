@@ -24,6 +24,7 @@ dependencies and compiler extensions are disabled.
 
 - [C++11–23 examples](examples/README.md)
 - [Template programming](templates/README.md)
+- [Programming exercises](exercises/README.md)
 
 The set is intentionally curated rather than exhaustive. Modules and library
 facilities with uneven support in the baseline GCC 13/Clang 18 environment are

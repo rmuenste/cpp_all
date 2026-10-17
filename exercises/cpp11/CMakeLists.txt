@@ -1,0 +1,1 @@
+add_cpp_exercise(exercise_cpp11_move_semantics 11 move_semantics.cpp)
