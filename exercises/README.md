@@ -21,6 +21,20 @@ the task and provides a usage example or checks, leaving the implementation to y
 | `concurrency` | [Process a batch with two workers](cpp11/concurrency.md) |
 | `chrono_random` | [Generate reproducible retry delays](cpp11/chrono_random.md) |
 
+## C++14
+
+| Topic | Exercise |
+| --- | --- |
+| `generic_lambdas` | [Order two dispatch queues with one comparator](cpp14/generic_lambdas.md) |
+| `init_capture` | [Own a payload in a deferred upload](cpp14/init_capture.md) |
+| `decltype_auto` | [Count calls without changing their results](cpp14/decltype_auto.md) |
+| `variable_templates` | [Normalize unsigned image samples](cpp14/variable_templates.md) |
+| `relaxed_constexpr` | [Choose a bounded buffer capacity](cpp14/relaxed_constexpr.md) |
+| `make_unique` | [Allocate an owned scratch buffer](cpp14/make_unique.md) |
+| `integer_sequence` | [Export a tuple of metrics as numeric samples](cpp14/integer_sequence.md) |
+| `heterogeneous_lookup` | [Find assets without constructing temporary keys](cpp14/heterogeneous_lookup.md) |
+| `literals_exchange` | [Read and clear buffered I/O state](cpp14/literals_exchange.md) |
+
 Each exercise includes a Markdown task, an unfinished `.cpp` file alongside it,
 and instructions to enable, build, and test its CMake target. Unfinished starters
 are expected not to compile until implemented. Each exercise defaults to off so
@@ -33,6 +47,8 @@ it does not interrupt the normal build or test run.
    tasks, expected checks, and exact configure, build, test, and disable commands.
    Keep these comments consistent with the Markdown task so the exercise can be
    completed without switching files.
+   Include a short background note for unfamiliar syntax, especially how a pack
+   expansion repeats a complete expression and pairs corresponding pack elements.
 2. Register it in that directory's `CMakeLists.txt`:
 
    ```cmake
